@@ -1,8 +1,11 @@
 class Github {
   constructor() {
-    // Best practice for production is to have the client_id and client_secret in another server and access them from here. This way exposes our data because is hardcoded within the code.
-    this.client_id = "3109d92a71ef2dc95571";
-    this.client_secret = "16fa8cf3fc94e9985a3cea5a2d0db0141bdf9f47";
+    // Best practice for production is to have the client_id and client_secret in another server and access them from here. 
+    // This way exposes our data because is hardcoded within the code.
+    // You can obtain client_id and client_secret from https://developer.github.com/
+    
+    this.client_id = ""; // Put client_id to test the project 
+    this.client_secret = ""; // Put client_secret to test the project
     this.repos_count = 5;
     this.repos_sort = "created: asc";
   }
